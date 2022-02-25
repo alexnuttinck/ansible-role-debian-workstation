@@ -1,0 +1,13 @@
+# Vagrant
+.vagrant
+
+# Ansible
+*.retry
+roles
+
+# Artifacts
+*.war
+*.jar
+*.tar.gz
+*.zip
+*.log

@@ -1,0 +1,22 @@
+---
+galaxy_info:
+  namespace: alexnuttinck
+  author: Alexandre Nuttinck
+  role_name: debian-workstation
+  description: Ansible role to setup a debian workstation with useful Sysadmins/DevOps tools.
+  license: MIT
+  min_ansible_version: "2.10"
+
+  platforms:
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
+
+  galaxy_tags:
+    - debian
+    - workstation
+    - devops
+    - sysadmin
+
+dependencies: []

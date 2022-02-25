@@ -1,0 +1,6 @@
+---
+# Use for testing the ansible role
+- hosts: debian
+  become: true
+  roles:
+    - role: '../../vagrant'
